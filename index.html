@@ -7,6 +7,9 @@
     <title>Calculator</title>
 </head>
 <body>
+    <div class="header">
+        <h1>Calculator.io</h1>
+    </div>
     <div class="wrapper">
         <input type="text" id="display" readonly placeholder="0">
         
@@ -43,9 +46,13 @@
             <div class="calc-btn-row">
                 <button class="calc-btn triple" onclick="appendToDisplay('0')">0</button>
                 <button class="calc-btn" onclick="appendToDisplay('.')">.</button>
-                <button class="calc-btn" onclick="calculate">&equals;</button>
+                <button class="calc-btn" onclick="calculate()">&equals;</button>
             </div>
         </section>
+
+    </div>
+    <div class="footer">
+        <h4>&#169; 2023 Made by <a href="https://www.linkedin.com/in/ranjitg07/" target="_blank">Ranjit Gupta</a></h4>
     </div>
     <script src="script.js"></script>
 </body>

@@ -14,14 +14,26 @@ html{
 }
 
 body{
+position: relative;
     display: flex;
+    flex-direction: column;
     background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
     align-items: center;
     font-family: "Dosis", sans-serif;
-    /* font-display: swap; */
     height: inherit;
     justify-content: center;
 }
+
+.header {
+    position: absolute;
+    top: 15px;
+    background: linear-gradient(90deg, #000000, hwb(291 20% 0%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+    color: transparent;
+}
+
 
 .wrapper{
     border-radius: 16px;
@@ -104,4 +116,14 @@ body{
 
 .triple{
     flex-basis: 47%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 15px;
+    color: rgb(42, 4, 4);
+}
+
+.footer a{
+    color: red;
 }
