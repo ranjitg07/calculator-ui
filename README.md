@@ -1,5 +1,5 @@
 # Live Link:
-<a target="_blank" href="https://calculatorio.vercel.app/">Try Now!</a>
+<a href="https://calculatorio.vercel.app/" target="_blank">Try Now!</a>
 
 # Preview
 
